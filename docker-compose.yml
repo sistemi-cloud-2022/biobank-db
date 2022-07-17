@@ -10,5 +10,5 @@ services:
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
     volumes:
-      - "./biobank_db.sql:/docker-entrypoint-initdb.d/1.sql"
+      - "./biobank-db.sql:/docker-entrypoint-initdb.d/1.sql"
     container_name: biobank_db
